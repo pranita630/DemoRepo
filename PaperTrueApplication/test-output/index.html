@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PaperTrueSignIn">
+              <span class="suite-name border-passed">PaperTrueSignIn</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PaperTrueSignIn">
+                    <span>E:\PTProject\Automation_Testing_Workspace\PaperTrueApplication\SignInTC.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PaperTrueSignIn">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PaperTrueSignIn">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PaperTrueSignIn">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PaperTrueSignIn">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PaperTrueSignIn">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PaperTrueSignIn">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PaperTrueSignIn" class="hide-methods passed suite-PaperTrueSignIn"> (hide)</a> <!-- hide-methods passed suite-PaperTrueSignIn -->
+                      <a href="#" panel-name="suite-PaperTrueSignIn" class="show-methods passed suite-PaperTrueSignIn"> (show)</a> <!-- show-methods passed suite-PaperTrueSignIn -->
+                    </span>
+                    <div class="method-list-content passed suite-PaperTrueSignIn">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PaperTrueSignIn" title="com.testcase.SignInPageTestCase" hash-for-method="ValidCredentials(testing01@papertrue.com, 123456)">ValidCredentials(testing01@papertrue.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PaperTrueSignIn -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PaperTrueSignIn" class="panel PaperTrueSignIn">
+          <div class="suite-PaperTrueSignIn-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.SignInPageTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidCredentials(testing01@papertrue.com, 123456)">
+                  </a> <!-- ValidCredentials(testing01@papertrue.com, 123456) -->
+                  <span class="method-name">ValidCredentials</span>
+                  <span class="parameters">(testing01@papertrue.com, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PaperTrueSignIn-class-passed -->
+        </div> <!-- panel PaperTrueSignIn -->
+        <div panel-name="test-xml-PaperTrueSignIn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\PTProject\Automation_Testing_Workspace\PaperTrueApplication\SignInTC.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PaperTrueSignIn&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignInTests&quot;&gt;
+    &lt;parameter name=&quot;UserName&quot; value=&quot;testing01@papertrue.com&quot;/&gt;
+    &lt;parameter name=&quot;BrowserToExecuteTestOn&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;Password&quot; value=&quot;123456&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcase.SignInPageTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignInTests --&gt;
+&lt;/suite&gt; &lt;!-- PaperTrueSignIn --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PaperTrueSignIn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PaperTrueSignIn</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignInTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PaperTrueSignIn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PaperTrueSignIn</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PaperTrueSignIn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PaperTrueSignIn</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PaperTrueSignIn');
+function tableData_PaperTrueSignIn() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidCredentials')
+data.setCell(0, 2, 'com.testcase.SignInPageTestCase')
+data.setCell(0, 3, 839);
+window.suiteTableData['PaperTrueSignIn']= { tableData: data, tableDiv: 'times-div-PaperTrueSignIn'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 839 ms</span>
+              <div id="times-div-PaperTrueSignIn">
+              </div> <!-- times-div-PaperTrueSignIn -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PaperTrueSignIn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PaperTrueSignIn</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PaperTrueSignIn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PaperTrueSignIn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.SignInPageTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Init(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidCredentials(testing01@papertrue.com, 123456)</span>
+                <span class="method-start">15789 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

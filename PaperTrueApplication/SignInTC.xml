@@ -1,0 +1,20 @@
+<suite name="PaperTrueSignIn">
+
+	<test name="SignInTests">
+	<parameter name="BrowserToExecuteTestOn" value="chrome"/>
+	<parameter name="UserName" value="testing01@papertrue.com"/>	
+	<parameter name="Password" value="123456"/>
+		<classes>
+			<class name="com.testcase.SignInPageTestCase"/>
+		</classes>
+	</test>
+
+	<!-- <test name="SignInValidationTests">
+		<classes>
+			<class name="com.FlightResevationApp.TestCases.LoginSanityTests"/>
+			<class name="com.FlightResevationApp.TestCases.SanityTestCasesWelcomeModule"/>
+		</classes>
+	</test> -->
+
+
+</suite>	

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PaperTrueSignIn]">
+  <test thread-count="5" name="SignInTests(failed)">
+    <parameter name="UserName" value="testing01@papertrue.com"/>
+    <parameter name="BrowserToExecuteTestOn" value="chrome"/>
+    <parameter name="Password" value="123456"/>
+    <classes>
+      <class name="com.testcase.SignInPageTestCase">
+        <methods>
+          <include name="ValidCredentials" invocation-numbers="0"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- com.testcase.SignInPageTestCase -->
+    </classes>
+  </test> <!-- SignInTests(failed) -->
+</suite> <!-- Failed suite [PaperTrueSignIn] -->

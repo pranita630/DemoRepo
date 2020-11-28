@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PaperTrueSignIn" duration-ms="16657" started-at="2019-02-15T03:51:47Z" finished-at="2019-02-15T03:52:04Z">
+    <groups>
+    </groups>
+    <test name="SignInTests" duration-ms="16657" started-at="2019-02-15T03:51:47Z" finished-at="2019-02-15T03:52:04Z">
+      <class name="com.testcase.SignInPageTestCase">
+        <test-method status="PASS" signature="Init(java.lang.String)[pri:0, instance:com.testcase.SignInPageTestCase@55f3ddb1]" name="Init" is-config="true" duration-ms="15774" started-at="2019-02-15T03:51:47Z" finished-at="2019-02-15T03:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method status="PASS" signature="ValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.testcase.SignInPageTestCase@55f3ddb1]" name="ValidCredentials" duration-ms="839" started-at="2019-02-15T03:52:03Z" finished-at="2019-02-15T03:52:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing01@papertrue.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCredentials -->
+      </class> <!-- com.testcase.SignInPageTestCase -->
+    </test> <!-- SignInTests -->
+  </suite> <!-- PaperTrueSignIn -->
+</testng-results>
